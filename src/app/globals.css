@@ -31,3 +31,13 @@ body {
     text-wrap: balance;
   }
 }
+
+/* .cards {
+   border: solid 1px white;
+   
+} */
+
+.displaycards{
+  display: flex;
+  flex-direction: row;
+}

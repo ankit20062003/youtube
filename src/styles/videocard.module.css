@@ -1,0 +1,51 @@
+/* styles/videoCard.module.css */
+.card {
+    width: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .thumbnail {
+    position: relative;
+  }
+  
+  .thumbnail img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .playButton {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .playButton img {
+    width: 60px;
+    height: 60px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .playButton img:hover {
+    opacity: 1;
+  }
+  
+  .title {
+    padding: 12px;
+    background-color: #f0f0f0;
+    text-align: center;
+    border-top: 1px solid #ddd;
+  }
+  
+  .title p {
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+  }
+  
